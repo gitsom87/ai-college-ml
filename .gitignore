@@ -1,44 +1,69 @@
-# Python environment
-venv/
-.env
+# =========================
+# Python
+# =========================
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
-# Python build / distribution
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+.Python
 build/
+develop-eggs/
 dist/
+downloads/
+.eggs/
 *.egg-info/
 *.egg
 
-# IDE / editor
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
 # Logs
 *.log
-logs/
 
-# ML / data artifacts
-*.h5
-*.pt
-*.pkl
-*.joblib
-*.model
-*.ckpt
-*.weights
+# =========================
+# FastAPI / Uvicorn
+# =========================
+*.db
+*.sqlite3
 
-# OS generated files
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS files
+# =========================
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# Temporary files
-*.tmp
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# Docker
+# =========================
+*.tar
+
+# =========================
+# Test / coverage
+# =========================
+.coverage
+htmlcov/
+
+# =========================
+# Misc
+# =========================
 *.swp
+*.swo
